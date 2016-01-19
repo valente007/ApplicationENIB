@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_accueil" android:icon="@android:drawable/ic_dialog_info"
+            android:title="Accueil" />
+        <item android:id="@+id/nav_edt" android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Emploi du Temps" />
+        <item android:id="@+id/nav_notes" android:icon="@android:drawable/ic_input_add"
+            android:title="Notes" />
+        <item android:id="@+id/nav_events" android:icon="@android:drawable/ic_menu_today"
+            android:title="Evénements" />
+        <item android:id="@+id/nav_bus" android:icon="@android:drawable/ic_menu_view"
+            android:title="Horaires Bus" />
+    </group>
+
+    <!--<item android:title="Réglages">-->
+        <!--<menu>
+            <item android:id="@+id/nav_connexion" android:icon="@android:drawable/ic_menu_crop"
+                android:title="Connexion" />
+            &lt;!&ndash;<item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"&ndash;&gt;
+                &lt;!&ndash;android:title="Send" />&ndash;&gt;
+        </menu>-->
+    <!--</item>-->
+
+</menu>

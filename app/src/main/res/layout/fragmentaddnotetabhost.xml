@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragtabadd"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/texttabadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajouter une Note"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Choisissez le Semestre"
+        android:id="@+id/textViewchoixsemestres"
+        android:layout_below="@+id/texttabadd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnersemestres"
+        android:layout_below="@+id/textViewchoixsemestres"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Choisissez le cours"
+        android:id="@+id/textViewchoixcours"
+        android:layout_below="@+id/spinnersemestres"
+        android:layout_marginTop="10dp"
+         />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnercours"
+        android:layout_below="@+id/textViewchoixcours"
+        android:layout_alignLeft="@+id/textViewchoixcours"
+        android:layout_alignStart="@+id/textViewchoixcours" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajouter"
+        android:id="@+id/buttonaddnote"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="3"
+        android:id="@+id/editTextnote"
+        android:hint="la note"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/spinnercours"
+        android:layout_toLeftOf="@+id/textViewsur"
+        android:layout_toStartOf="@+id/textViewsur" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="sur"
+        android:id="@+id/textViewsur"
+        android:layout_alignBaseline="@+id/editTextnote"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="4"
+        android:id="@+id/editTextbase"
+        android:hint="la base"
+        android:layout_alignTop="@+id/editTextnote"
+        android:layout_toRightOf="@+id/textViewsur"
+        android:layout_toEndOf="@+id/textViewsur" />
+
+
+</RelativeLayout>
