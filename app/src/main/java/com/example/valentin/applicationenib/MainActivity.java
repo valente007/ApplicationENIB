@@ -219,7 +219,7 @@ public class MainActivity extends AppCompatActivity
    /* public void modifTextView(){
         TextView surname=(TextView) findViewById(R.id.surnom);
 
-        surname.setText(mainUser.getLogin());
+        surname.setText(mainUser.getLogin());qsqefqef
 
     }*/
 
