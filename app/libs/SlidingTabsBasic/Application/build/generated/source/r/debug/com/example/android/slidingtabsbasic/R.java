@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.android.slidingtabsbasic;
+package com.enib.android.slidingtabsbasic;
 
 public final class R {
     public static final class attr {
@@ -210,7 +210,7 @@ containing a value of this type.
             0x7f010008, 0x7f010009, 0x7f01000a
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#cardBackgroundColor}
+          <p>This symbol is the offset where the {@link com.enib.android.slidingtabsbasic.R.attr#cardBackgroundColor}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -225,7 +225,7 @@ containing a value of this type.
         */
         public static final int CardView_cardBackgroundColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#cardCornerRadius}
+          <p>This symbol is the offset where the {@link com.enib.android.slidingtabsbasic.R.attr#cardCornerRadius}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -241,7 +241,7 @@ containing a value of this type.
         */
         public static final int CardView_cardCornerRadius = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#cardElevation}
+          <p>This symbol is the offset where the {@link com.enib.android.slidingtabsbasic.R.attr#cardElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -257,7 +257,7 @@ containing a value of this type.
         */
         public static final int CardView_cardElevation = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#cardMaxElevation}
+          <p>This symbol is the offset where the {@link com.enib.android.slidingtabsbasic.R.attr#cardMaxElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -273,7 +273,7 @@ containing a value of this type.
         */
         public static final int CardView_cardMaxElevation = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#cardPreventCornerOverlap}
+          <p>This symbol is the offset where the {@link com.enib.android.slidingtabsbasic.R.attr#cardPreventCornerOverlap}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -287,7 +287,7 @@ containing a value of this type.
         */
         public static final int CardView_cardPreventCornerOverlap = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#cardUseCompatPadding}
+          <p>This symbol is the offset where the {@link com.enib.android.slidingtabsbasic.R.attr#cardUseCompatPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -301,7 +301,7 @@ containing a value of this type.
         */
         public static final int CardView_cardUseCompatPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#contentPadding}
+          <p>This symbol is the offset where the {@link com.enib.android.slidingtabsbasic.R.attr#contentPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -317,7 +317,7 @@ containing a value of this type.
         */
         public static final int CardView_contentPadding = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#contentPaddingBottom}
+          <p>This symbol is the offset where the {@link com.enib.android.slidingtabsbasic.R.attr#contentPaddingBottom}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -333,7 +333,7 @@ containing a value of this type.
         */
         public static final int CardView_contentPaddingBottom = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#contentPaddingLeft}
+          <p>This symbol is the offset where the {@link com.enib.android.slidingtabsbasic.R.attr#contentPaddingLeft}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -349,7 +349,7 @@ containing a value of this type.
         */
         public static final int CardView_contentPaddingLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#contentPaddingRight}
+          <p>This symbol is the offset where the {@link com.enib.android.slidingtabsbasic.R.attr#contentPaddingRight}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -365,7 +365,7 @@ containing a value of this type.
         */
         public static final int CardView_contentPaddingRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.slidingtabsbasic.R.attr#contentPaddingTop}
+          <p>This symbol is the offset where the {@link com.enib.android.slidingtabsbasic.R.attr#contentPaddingTop}
           attribute's value can be found in the {@link #CardView} array.
 
 

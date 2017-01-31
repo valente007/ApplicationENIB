@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.example.android.slidingtabsbasic;
+package com.enib.android.slidingtabsbasic;
 
-import com.example.android.common.logger.Log;
-import com.example.android.common.view.SlidingTabLayout;
+import com.enib.android.common.logger.Log;
+import com.enib.android.common.view.SlidingTabLayout;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -29,7 +29,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * A basic sample which shows how to use {@link com.example.android.common.view.SlidingTabLayout}
+ * A basic sample which shows how to use {@link com.enib.android.common.view.SlidingTabLayout}
  * to display a custom {@link ViewPager} title strip which gives continuous feedback to the user
  * when scrolling.
  */

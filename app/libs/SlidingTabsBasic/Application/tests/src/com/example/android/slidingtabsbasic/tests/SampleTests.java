@@ -13,9 +13,9 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-package com.example.android.slidingtabsbasic.tests;
+package com.enib.android.slidingtabsbasic.tests;
 
-import com.example.android.slidingtabsbasic.*;
+import com.enib.android.slidingtabsbasic.*;
 
 import android.test.ActivityInstrumentationTestCase2;
 

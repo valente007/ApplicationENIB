@@ -14,13 +14,13 @@
 * limitations under the License.
 */
 
-package com.example.android.common.activities;
+package com.enib.android.common.activities;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
-import com.example.android.common.logger.Log;
-import com.example.android.common.logger.LogWrapper;
+import com.enib.android.common.logger.Log;
+import com.enib.android.common.logger.LogWrapper;
 
 /**
  * Base launcher activity, to handle most of the common plumbing for samples.

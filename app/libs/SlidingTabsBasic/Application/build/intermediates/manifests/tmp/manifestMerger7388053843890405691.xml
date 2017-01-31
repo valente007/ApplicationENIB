@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.slidingtabsbasic.test">
+    package="com.enib.android.slidingtabsbasic.test">
 
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.example.android.slidingtabsbasic"
+                     android:targetPackage="com.enib.android.slidingtabsbasic"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.example.android.slidingtabsbasic"/>
+                     android:label="Tests for com.enib.android.slidingtabsbasic"/>
 </manifest>

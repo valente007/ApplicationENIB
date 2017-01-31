@@ -1,4 +1,4 @@
-package com.example.valentin.applicationenib;
+package com.enib.valentin.applicationenib;
 
 import org.junit.Test;
 
